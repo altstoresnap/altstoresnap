@@ -19,7 +19,8 @@
             "versions": [{
                 "version": "12.86.0.47",
                 "date": "2024-05-13",
-                "downloadURL": "https://drive.google.com/uc?export=download&id=1Oyeh4l80_br2-2L931kwm7nwycc9X3_n"
+                "downloadURL": "https://drive.google.com/uc?export=download&id=1Oyeh4l80_br2-2L931kwm7nwycc9X3_n",
+                "size": 101
               }],
             "appPermissions": {
                 "appPermissions": {
