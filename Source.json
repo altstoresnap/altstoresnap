@@ -1,0 +1,44 @@
+{
+    "name": "Snap Source",
+    "description": "A source for a modded snapchat",
+    "iconURL": "https://accounts.snapchat.com/accounts/static/images/ghost/snapchat-app-icon.svg",
+    "tintColor": "#FFFC00",
+    "featuredApps": [
+        "com.example.myapp",
+        "com.example.anotherapp"
+    ],
+    "apps": [
+        {
+            "name": "Snapchat",
+            "bundleIdentifier": "com.toyopagroup.picaboo",
+            "developerName": "Random Person",
+            "subtitle": "An awesome app.",
+            "localizedDescription": "Share the moment",
+            "iconURL": "https://accounts.snapchat.com/accounts/static/images/ghost/snapchat-app-icon.svg",
+            "tintColor": "#FFFC00",
+            "versions": [{
+                "version": "12.86.0.47",
+                "date": "2024-05-13",
+                "downloadURL": "https://myapp.com/myapp-1.0.ipa"
+              }],
+            "appPermissions": {
+                "appPermissions": {
+                    "entitlements": [
+                        "com.apple.security.application-groups",
+                        "com.apple.developer.siri"
+                    ],
+                    "privacy": {
+                        "NSMicrophoneUsageDescription": "App uses the microphone to record audio.",
+                        "NSCameraUsageDescription": "App uses the camera to take photos."
+                    }
+                }
+            }
+        }
+    ],
+    "news": [{
+        "title": "What Is New",
+        "identifier": "new_feature",
+        "caption": "Bug fixes",
+        "date": "2024-05-13"
+      }]
+}
